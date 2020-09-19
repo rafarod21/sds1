@@ -9,7 +9,7 @@ import { formatDate } from './helpers';
 
 import './styles.css';
 
-const BASE_URL = 'http://localhost:8080';
+const BASE_URL = 'https://sds1-rafarod21.herokuapp.com';
 
 const Records: React.FC = () => {
   const [recordsResponse, setRecordsResponse] = useState<RecordsResponse>();
